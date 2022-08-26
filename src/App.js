@@ -1,11 +1,17 @@
 import React from 'react';
-import { Header,Content,Footer } from './component';
+import MsgBox from './class-props';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    [<Header/>,<Content/>,<Footer/>]
+    <MsgBox
+        text="React & React Native"
+        color="blue"
+        bgColor="#ccc"
+        fontSize="18pt"
+        border="solid 1px black"
+    />
   );
 }
 
