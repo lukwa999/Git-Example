@@ -6,7 +6,7 @@ export function EventData2(){
         let s = (t === 'Start')?'Stop' :'Start'
         ev.target.innerText = s
     }
-    const onClickadd = (ev) =>{
+    const onClickAdd = (ev) =>{
         let t = ev.target.innerText
         let r = eval(t)
         alert(`${t} = ${r}`)
