@@ -29,7 +29,7 @@ export default function Banner(){
 
     return(
         <div style={{margin: '20px',textAlign:'center'}}>
-            <Img src={banner} onClick={bannerClick} style={{cursor:'pointer'}} alt="banner"/>
+            <img src={banner} onClick={bannerClick} style={{cursor:'pointer'}} alt="banner"/>
         </div>
     )
 }
