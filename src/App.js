@@ -1,6 +1,6 @@
 import React from 'react'
-import FormBootstrap from './formBootstrap'
+import FormValidation from './form-validation'
 
 export default function App(){
-  return<FormBootstrap/>
+  return<FormValidation/>
 }
